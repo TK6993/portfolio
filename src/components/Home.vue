@@ -1,8 +1,7 @@
 <template lang="html">
   <div>
 
-          <!-- Navigation -->
-          <Navigation />
+
 
           <!-- Header -->
           <header class="masthead">
@@ -10,7 +9,7 @@
               <div class="intro-text">
                 <div class="intro-lead-in">Willkommen auf meinem Portfolio</div>
                 <div class="intro-heading text-uppercase">Keoma Trippner</div>
-                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+                <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a> -->
               </div>
             </div>
           </header>
@@ -27,7 +26,19 @@
                 <div class="col-md-4">
                   <span class="fa-stack fa-4x">
                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4 class="service-heading">Responsive Design</h4>
+                  <p class="text-muted">
+                    Name: Keoma Trippner<br>
+                    Adresse: Lipaerstraße 22, 12203 Berlin<br>
+                    E-Mail: Keoma6993@gmail.com
+                  </p>
+                </div>
+                <div class="col-md-4">
+                  <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                    <i class="far fa-smile fa-stack-1x fa-inverse"></i>
                   </span>
                   <h4 class="service-heading">Hallo</h4>
                     <p class="text-muted">
@@ -44,21 +55,13 @@
                 <div class="col-md-4">
                   <span class="fa-stack fa-4x">
                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                  </span>
-                  <h4 class="service-heading">Responsive Design</h4>
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                  <span class="fa-stack fa-4x">
-                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                    <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                    <i class="fas fa-dice fa-stack-1x fa-inverse"></i>
                   </span>
                   <h4 class="service-heading">Hobbys und Freizeit</h4>
                   <p class="text-muted">In meiner Freizeit beschäftige ich mich viel
                     mit Grafik- und Gamedesign, programmiere
                     meine eigenen kleinen Spiele, zeichne gern
-                    und erstelle Grafiken für diese. Hier lerne ich
+                    und erstelle Grafiken für Spiele. Ich lerne
                     gerne Neues und bin stets bemüht meine
                     Fähigkeiten zu verbessern. Andere Hobbys
                     von mit sind Sport, Schwimmen und Parkour.
@@ -109,74 +112,33 @@
           </section> -->
 
           <!-- Contact -->
-          <section class="page-section" id="contact">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-12 text-center">
-                  <h2 class="section-heading text-uppercase">Contact Us</h2>
-                  <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-12">
-                  <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
-                          <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="form-group">
-                          <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
-                          <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="form-group">
-                          <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
-                          <p class="help-block text-danger"></p>
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
-                          <p class="help-block text-danger"></p>
-                        </div>
-                      </div>
-                      <div class="clearfix"></div>
-                      <div class="col-lg-12 text-center">
-                        <div id="success"></div>
-                        <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </section>
+          <Skills />
 
           <!-- Footer -->
           <footer class="footer">
             <div class="container">
               <div class="row align-items-center">
                 <div class="col-md-4">
-                  <span class="copyright">Copyright &copy; Your Website 2019</span>
+                  <span class="copyright">Copyright &copy; Keoma Trippner 2018</span>
                 </div>
                 <div class="col-md-4">
                   <ul class="list-inline social-buttons">
                     <li class="list-inline-item">
-                      <a href="#">
+                      <a href="https://twitter.com/KeoTripp">
                         <i class="fab fa-twitter"></i>
                       </a>
-                    </li>
-                    <li class="list-inline-item">
+                     </li>
+
+                    <!-- <li class="list-inline-item">
                       <a href="#">
                         <i class="fab fa-facebook-f"></i>
                       </a>
-                    </li>
-                    <li class="list-inline-item">
+                    </li> -->
+                    <!-- <li class="list-inline-item">
                       <a href="#">
                         <i class="fab fa-linkedin-in"></i>
                       </a>
-                    </li>
+                    </li> -->
                   </ul>
                 </div>
                 <div class="col-md-4">
@@ -193,6 +155,8 @@
             </div>
           </footer>
 
+
+
           <!-- Portfolio Modals -->
           <!-- <ProjectView /> -->
   </div>
@@ -200,16 +164,16 @@
 
 <script>
 import Portfolio from './Portfolio'
-import Navigation from './Navigation'
 // import ProjectView from './ProjectView'
 import About from './About'
+import Skills from './Skills'
 
 export default {
   name: 'app',
   components:{
     Portfolio,
-    Navigation,
     About,
+    Skills
 
   }
 }
@@ -222,6 +186,6 @@ export default {
 }
 
 .intro-heading{
-  color: #fed136;
+  color: #FFB319;
 }
 </style>

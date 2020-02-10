@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <!-- Navigation -->
+    <Navigation />
     <router-view />
 
       <!-- Bootstrap core JavaScript
@@ -16,7 +18,13 @@
 </template>
 
 <script>
+import Navigation from './components/Navigation.vue'
+
 export default {
+  components: {
+    Navigation
+
+  }
 }
 </script>
 
