@@ -34,7 +34,7 @@ export default {
   },
   methods: {
     validateBeforeSubmit () {
-      if (this.password === 'test') {
+      if (this.password === 'portfolioWeb') {
         this.error = false
         storageHelper.setItem('user-password', this.password)
         router.push('/')

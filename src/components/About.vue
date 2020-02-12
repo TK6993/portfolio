@@ -34,7 +34,7 @@
                 </div>
               </li>
 
-            </ul> 
+            </ul>
           </div>
         </div>
       </div>
@@ -85,5 +85,20 @@ export default{
 }
 </script>
 
-<style lang="sass" scoped>
+<style lang="css" scoped>
+h2.section-heading{
+  color: #e8d700;
+}
+
+.timeline-heading{
+    color: #e8d700;
+}
+div.col-lg-12 h3.text-muted {
+  color: #ffffff !important;
+}
+div.timeline-body .text-muted{
+  color: #ffffff !important;
+}
+
+
 </style>

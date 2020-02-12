@@ -5,7 +5,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Portfolio</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">Eine Sammlung an unterschiedlichsten Dingen die ich gemacht habe</h3>
           </div>
         </div>
         <div class="row">
@@ -103,7 +103,7 @@ export default{
         image: poster_01,
         title: 'Bachelor Projekt Poster',
         caption: 'Werbeplakat für mein Bachelorprojekt',
-        text: ''
+        text: 'Das Plakat habe ich für unsere Bachelorprojekt entworfen. Das Projekt handelte von einer Experience wo ein Benutzer, der sich mithilfe einer VR-Brille in virtueller Umgebung bewegt. Und von andererseits der Fukntion, dass diese Umgebung zeitgleich von anderen Benutzer über einen Multitouchtisch beeinflusst und verändert werden kann.'
       },
       {
         image: loplop,
@@ -147,8 +147,6 @@ export default{
         title: 'Planeten für User Interface',
         caption: 'Gamejam Bilder',
         text: 'Dies sind ein paar Planeten für das Gamejam Spiel Moons, welche ich in Photoshop gezeichnet habe.',
-        linksrc: 'https://keomatrippner.itch.io/sneakyspheres',
-        linkText: 'Itch.io Seite von SneakySpheres'
       },
       {
         image: moons,
@@ -199,5 +197,11 @@ export default{
 </script>
 
 <style lang="css" scoped>
+
+btn-secondary {
+    color: #000000 !important;
+    background-color:#000000  !important;
+    border-color:#000000  !important;
+}
 
 </style>

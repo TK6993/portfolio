@@ -28,7 +28,7 @@
                     <i class="fas fa-circle fa-stack-2x text-primary"></i>
                     <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
                   </span>
-                  <h4 class="service-heading">Responsive Design</h4>
+                  <h4 class="service-heading">Kontakt</h4>
                   <p class="text-muted">
                     Name: Keoma Trippner<br>
                     Adresse: Lipaerstraße 22, 12203 Berlin<br>
@@ -164,6 +164,7 @@
 
 <script>
 import Portfolio from './Portfolio'
+
 // import ProjectView from './ProjectView'
 import About from './About'
 import Skills from './Skills'
@@ -181,11 +182,23 @@ export default {
 
 <style lang="css" scoped>
 
+#services h2{
+  color: #e8d700;
+}
+
 .intro-lead-in{
   color: black;
 }
 
 .intro-heading{
-  color: #FFB319;
+  color: #e8d700;
+}
+
+div.col-md-4 .text-muted, .service-heading{
+  color: #ffffff !important;
+}
+
+.text-primary {
+    color:  #e8d700 !important;
 }
 </style>
