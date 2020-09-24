@@ -90,13 +90,13 @@ export default{
       {
         image: Lizard,
         title: '3D Lizard',
-        caption: 'Dieses Bild wurde mithilf von Austodesk Maya gemoddelt und erstellt.',
+        caption: 'Dieses Bild wurde mithilfe von Austodesk Maya gemoddelt und erstellt.',
         text: ''
       },
       {
         image: turntable,
         title: '3D Turntable',
-        caption: 'Dieses Bild wurde mithilf von Austodesk Maya gemoddelt und erstellt.',
+        caption: 'Dieses Bild wurde mithilfe von Austodesk Maya gemoddelt und erstellt.',
         text: 'Im Studium habe ich im Rahmen eines Kurses den Umgang mit Austodesk Maya gelernt und dort 3D Objekte zu modeln. Hierbei ist zum Beispiel dieser Plattenspieler entstanden. Welchen es dann hieß richtig auszuleuchten und zu positionieren.'
       },
       {
