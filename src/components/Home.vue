@@ -37,8 +37,8 @@
                 </div>
                 <div class="col-md-4">
                   <span class="fa-stack fa-4x">
-                    <i class="fas fa-circle fa-stack-2x text-primary"></i>
-                    <i class="far fa-smile fa-stack-1x fa-inverse"></i>
+                    <img class="img-fluid d-block mx-auto" src="../assets/img/portrait.png" alt="">
+                  </br>
                   </span>
                   <h4 class="service-heading">Hallo</h4>
                     <p class="text-muted">
@@ -192,6 +192,12 @@ export default {
 
 .intro-heading{
   color: #e8d700;
+}
+
+.col-md-4 h4{
+
+margin-top: 50px;
+
 }
 
 div.col-md-4 .text-muted, .service-heading{
