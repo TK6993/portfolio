@@ -20,8 +20,8 @@
               <img class="img-fluid" :src="obj.image" alt="">
             </b-button>
             <div class="portfolio-caption">
-              <h4>{{ obj.caption }}</h4>
-              <p class="text-muted">{{ obj.title }}</p>
+              <h4>{{ obj.title }}</h4>
+              <p class="text-muted">{{ obj.caption }}</p>
             </div>
           </div>
         </div>
@@ -90,13 +90,13 @@ export default{
       {
         image: Lizard,
         title: '3D Lizard',
-        caption: 'Dieses Bild wirde mithilf von Austodesk Maya gemoddelt und erstellt.',
+        caption: 'Dieses Bild wurde mithilf von Austodesk Maya gemoddelt und erstellt.',
         text: ''
       },
       {
         image: turntable,
         title: '3D Turntable',
-        caption: 'Dieses Bild wirde mithilf von Austodesk Maya gemoddelt und erstellt.',
+        caption: 'Dieses Bild wurde mithilf von Austodesk Maya gemoddelt und erstellt.',
         text: 'Im Studium habe ich im Rahmen eines Kurses den Umgang mit Austodesk Maya gelernt und dort 3D Objekte zu modeln. Hierbei ist zum Beispiel dieser Plattenspieler entstanden. Welchen es dann hieß richtig auszuleuchten und zu positionieren.'
       },
       {
@@ -109,7 +109,7 @@ export default{
         image: loplop,
         title: 'Violeter Hase',
         caption: 'Photoshopzeichnung',
-        text:'Diese Zeichnung gehört zu einer Reihe von Bilder die in meiner Freizeit gezeichnet habe. Diese Zeichnung ist in Photoshop endstanden. Die Reihe bestehet aus verschiedenen Tieren, Kreaturen oder Charakteren welche assoziiert mit einer Farbe dargestellt werden. Hier eine Art Hase im Hoody'
+        text:'Diese Zeichnung gehört zu einer Reihe von Bilder die in meiner Freizeit gezeichnet habe. Diese Zeichnung ist in Photoshop endstanden. Die Reihe besteht aus verschiedenen Tieren, Kreaturen oder Charakteren welche assoziiert mit einer Farbe dargestellt werden. Hier eine Art Hase im Hoody'
       },
       {
         image: meerhexe,

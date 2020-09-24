@@ -72,13 +72,13 @@ export default{
         image: school,
         date: 'Oktober 2014 – Juni 2019',
         title: 'Studium - Bachelor of Science',
-        description: 'Ich habe meinen Bachelor of Science an der HTW Berlin gemacht im Studiengang Internationale Medieninformatik. Dieser Studiengang beinhaltete Schwerpunkte wie: Informatik, Game Technology, Visual Computing und WebTechnologie'
+        description: 'Ich habe meinen Bachelor of Science an der HTW Berlin gemacht im Studiengang Internationale Medieninformatik. Dieser Studiengang beinhaltete Schwerpunkte wie: Informatik, Game Technology, Visual Computing und Web-Technologie'
       },
       {
         image: book,
         date: 'August 2010 –Juni 2013',
         title: 'Allgemeine Hochschulreife',
-        description: 'Ich habe mein Abitur an dem Beruflichen Gymnasium - technik in Walsrode gemacht mit dem Schwerpunkt auf Informationstechnik.'
+        description: 'Ich habe mein Abitur an dem Beruflichen Gymnasium - Technik in Walsrode gemacht mit dem Schwerpunkt auf Informationstechnik.'
       }
     ]
   })
